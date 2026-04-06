@@ -29,7 +29,7 @@
 		"@wcj/markdown-to-html": "^3.0.2",
 		"astro": "5.18.1",
 		"bcryptjs": "^3.0.3",
-		"cross-env": "^7.0.3",
+		"cross-env": "^10.1.0",
 		"dotenv": "^17.2.3",
 		"firebase-admin": "^11.10.1",
 		"js-beautify": "^1.15.1",
