@@ -327,6 +327,17 @@ function loadLevel(i) {
 
   portalUnlocked=false;
   history = [];
+  
+  let head = snake[0];
+  let next = snake[1];
+
+  if (next) {
+    if (next.x < head.x) dir = "right";
+    else if (next.x > head.x) dir = "left";
+    else if (next.y < head.y) dir = "down";
+    else if (next.y > head.y) dir = "up";
+  }
+  
   render();
 }
 
